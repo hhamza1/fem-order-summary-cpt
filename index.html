@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;1,900&display=swap" rel="stylesheet">
@@ -14,23 +14,35 @@
 
 </head>
 <body>
+    <div class="card">
+        <div class="img-container">
+            <img src="img/illustration-hero.svg" alt="illustration-hero">
+        </div>
 
-  Order Summary
+        <div class="card-text">
+            <h2 class="order-sum-title">Order Summary</h2>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
+            <p class="order-sum-paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any 
+            device anywhere you like!</p>
+            
+            <div class="order-sum-option">
+                <div class="icon-container">
+                    <img src="img/icon-music.svg" alt="Music Icon">
+                </div>
+                <div class="order-sum-details">
+                    Annual Plan
+                    <span class="fees">$59.99/year</span>
+                </div>
+                <a href="#" class="btn-change">Change</a>
+            </div>
+            <button class="btn btn-proceed">Proceed to Payment</button>
+            <button class="btn btn-cancel">Cancel Order</button>           
+        </div>
+  </div>
   
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/hhamza1">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/hhamza1">@hhamza1</a>
   </div>
 </body>
 </html>
