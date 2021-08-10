@@ -42,7 +42,7 @@ Users should be able to:
 ## My process
 
 ### What I learned
-I wanted to add a stylish animated underline on the button "Change", and I used the following CSS code from Danny Guo's blog, it's in the useful resources section
+I wanted to add a stylish animated underline on the button "Change", and I used the following CSS code from Danny Guo's blog - Kudos to him -, it's in the useful resources section below
 
 ```css
 .btn-change {
@@ -90,7 +90,7 @@ This was also another fancy animation for the button "Proceed the Payment", I ha
 
 ### Useful resources
 
-- [Danny Guo's blog](https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/) - This helped me with the stylish animated underline, I simply reduced the size and reversed the animation. I will be using more in future projects
+- [Danny Guo's blog](https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/) - This helped me with the stylish animated underline, I simply reduced the size and reversed the animation. I will be using it more in future projects
 ### Built with
 
 - HTML
