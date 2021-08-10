@@ -24,7 +24,7 @@ Users should be able to:
 ### Screenshot
 
 #### Mobile View
-![Mobile View]()
+![Mobile View](./screenshots/mobile-view.png)
 
 #### Desktop View
 ![Desktop View]()
