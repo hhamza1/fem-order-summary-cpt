@@ -81,12 +81,8 @@ body:before {
     background-color: var(--neutral-bery-pale-blue);
     padding: 17px 16px 16px 16px;
     border-radius: 11px;
-    justify-items: center;
+    justify-content: space-between;
     align-items: center;
-}
-
-.icon-container {
-    margin-right: 20px;
 }
 
 .order-sum-details {
@@ -98,18 +94,18 @@ body:before {
 .fees {
     color: var(--neutral-desaturated-blue);
     font-weight: 500;
+    display: block;
 }
 
 .btn-change {
-    font-size: 13px;
-    text-decoration: underline;
-    color: var(--primary-bright-blue);
-    font-weight: 700;
-    text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 100% 1px;
+    color: var(--primary-bright-blue);
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
     transition: background-size .3s;
     
 }
@@ -156,16 +152,6 @@ body:before {
 .btn-cancel:hover {
     color:hsl(223, 47%, 23%);
 }
-
-
-
-
-
-
-
-
-
-
 
 .attribution { padding-top: 10px; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
